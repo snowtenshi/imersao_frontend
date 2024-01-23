@@ -44,3 +44,36 @@ body {
   font-size: 14px;
   font-family: "DM Sans", sans-serif;
 }
+
+.sidebar nav ul li a:hover {
+  color:white;
+  transition: 0.6s;
+}
+
+.sidebar__library div {
+  background-color: #121212;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  margin-top: 8px;
+  padding: 16px 0 0 16px;
+}
+
+.sidebar__library a {
+  color: #b3b3b3;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.sidebar__library a:hover {
+  color:white;
+  transition: 0.6s;
+}
+
+#btn_plus {
+  margin: 16px;
+  cursor: pointer;
+}
