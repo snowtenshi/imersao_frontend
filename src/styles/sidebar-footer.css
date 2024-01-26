@@ -1,5 +1,6 @@
 body {
-  background-color: #1b1a1a;
+  background-color: var(--bg-color);
+  font-family: var(--font-dm-sans);
 }
 
 .sidebar {
@@ -42,7 +43,6 @@ body {
   text-decoration: none;
   font-weight: 600;
   font-size: 14px;
-  font-family: "DM Sans", sans-serif;
 }
 
 .sidebar nav ul li a:hover {
@@ -76,7 +76,6 @@ body {
   border: 0px;
   font-size: 1rem;
   font-weight: 700;
-  font-family: "DM Sans", sans-serif;
   text-align: center;
   text-decoration: none;
   text-transform: none;
@@ -132,24 +131,20 @@ body {
 
 .section-playlist__content .title {
   font-weight: 700;
-  font-family: "DM Sans", sans-serif;
 }
 
 .section-playlist__content .subtitle {
   font-weight: 500;
   font-size: 12px;
-  font-family: "DM Sans", sans-serif;
 }
 
 .section-playlist__content .section-playlist__button {
   display: flex;
   justify-content: center;
   background-color: whitesmoke;
-  color: rgb(9, 9, 9);
   border-radius: 20px;
   font-size: 12px;
   font-weight: 700;
-  font-family: "DM Sans", sans-serif;
   text-decoration: none;
   text-transform: none;
   padding: 10px;
@@ -192,7 +187,6 @@ body {
   border: 1px solid whitesmoke;
   border-radius: 20px;
   font-weight: 700;
-  font-family: "DM Sans", sans-serif;
   cursor: pointer;
 }
 
@@ -218,13 +212,11 @@ body {
   font-weight: bold;
   font-size: 12px;
   margin-bottom: 10px;
-  font-family: "DM Sans", sans-serif;
 }
 
 .premium-signup .premium-signup__subtitle {
   font-size: 14px;
   font-weight: 500;
-  font-family: "DM Sans", sans-serif;
 }
 
 .premium-signup button {
