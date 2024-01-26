@@ -199,3 +199,46 @@ body {
 .languages__button:hover {
   border: 2px solid whitesmoke;
 }
+
+.premium-signup {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(90deg, rgba(122,240,133,1) 15%, rgba(50,240,85,1) 51%, rgba(88,156,236,1) 94%);
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.premium-signup .text {
+ flex-shrink: 0;
+}
+.premium-signup .premium-signup__title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 10px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.premium-signup .premium-signup__subtitle {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "DM Sans", sans-serif;
+}
+
+.premium-signup button {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 14px 30px;
+  border: 0px;
+  border-radius: 40px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.premium-signup button:hover {
+  transform: scale(1.1);
+}
