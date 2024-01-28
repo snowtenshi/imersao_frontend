@@ -3,13 +3,8 @@ const resultArtist = document.getElementById("result-artist");
 const resultPlaylist = document.getElementById('result-playlists');
 
 function requestApi(searchTerm) {
-    const url = `http://127.0.0.1:3000/artists?name_like=${searchTerm}`
-    fetch(url, {
-        method: "GET",
-        headers: {
-            'Content-Type': 'application/json',
-        }
-    })
+    const url = `http://localhost:3000/artists?name_like=${searchTerm}`
+    fetch(url)
     .then((response) => response.json())
     .then((result) => displayResults(result))
     .catch((error) => console.error('Error fetching data:', error))
