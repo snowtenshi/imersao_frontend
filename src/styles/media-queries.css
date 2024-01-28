@@ -3,9 +3,3 @@
     grid-template-columns: 1fr 1fr;
   }
 }
-
-@media screen and (max-width: 1920px) {
-  .offer__list-item {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  }
-}

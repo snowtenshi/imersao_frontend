@@ -108,7 +108,7 @@
 }
 
 .offer__scroll-container {
-  max-height: 43vh;
+  max-height: 52vh;
   margin: 24px;
   overflow-y: auto;
 }
@@ -128,11 +128,6 @@
   grid-gap: 16px;
   gap: 16px;
   margin-bottom: 16px;
-
-  display: grid;
-  gap: 16px;
-  grid-gap: 32px;
-  margin: 0 auto;
 }
 
 .cards {
